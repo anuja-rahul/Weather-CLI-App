@@ -43,7 +43,8 @@ class WeatherAPIHandler:
         self.__logger.log_info(f"City:          {self.__CITY}")
         self.__logger.log_info(f"Temperature:   {self.__get_temps()}")
         self.__logger.log_info(f"Humidity:      {self.__get_humidity()} %")
-        self.__logger.log_info(f"Wind Speed:    {self.__get_wind_speed()} m/s")
+        self.__logger.log_info(f"Wind Speed:    {self.__get_wind_speed()} m/s, "
+                               f"{(self.__get_wind_speed() * (18/5)):.02f} km/h")
         self.__logger.log_info(f"Description:   {self.__get_description()}")
         self.__logger.log_info(f"Sunrise:       {self.__get_sunrise_sunset()[0]}")
         self.__logger.log_info(f"Sunset:        {self.__get_sunrise_sunset()[1]}\n")
