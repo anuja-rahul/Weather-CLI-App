@@ -1,5 +1,7 @@
 from python_datalogger import DataLogger
 from dotenv import load_dotenv
+import datetime as dt
+import requests
 import os
 
 
@@ -9,5 +11,6 @@ class WeatherAPIHandler:
 
     def __init__(self):
         self.__logger = DataLogger("WeatherAPIHandler", True, "INFO")
+
 
 
