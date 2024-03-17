@@ -1,1 +1,2 @@
 https://test-files.pythonhosted.org/packages/f4/9f/f42a72e4c88941d00af9259237ddb14c98c63164956a69b34c5811587e5b/python_datalogger-0.0.4.tar.gz
+python-dotenv~=1.0.0
