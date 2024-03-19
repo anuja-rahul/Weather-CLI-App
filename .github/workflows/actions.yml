@@ -3,7 +3,10 @@ name: run main.py
 
 on:
   schedule:
-    - cron: '5 */12 * * *' # Every day
+    - cron: '5 */24 * * *' # Every day
+
+  # allows to manually run the job at any time
+  workflow_dispatch:
 
 jobs:
   build:
