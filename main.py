@@ -1,4 +1,3 @@
-from python_datalogger import DataLogger
 from handler import WeatherAPIHandler
 from nuke import NukeFiles
 
