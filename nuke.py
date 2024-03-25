@@ -16,10 +16,11 @@ class NukeFiles:
                     file_day = int(file.split("-")[0])
                     today = str(self.__time_now.day)
                     day_dif = abs(int(today) - file_day)
+                    print(day_dif)
                     file_origin_time = datetime.datetime.fromtimestamp(os.path.getmtime(file_path))
                     if self.__time_now - file_origin_time > datetime.timedelta(days=self.__days):
-                        print(file_path)
+                        # print(file_path)
                         os.remove(file_path)
-                    elif day_dif >= self.__days:
+                    if day_dif >= self.__days:
                         print(file_path)
                         os.remove(file_path)
