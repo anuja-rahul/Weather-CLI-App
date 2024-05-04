@@ -1,0 +1,14 @@
+2024-05-04 01:10:50,967: WeatherAPIHandler - INFO - <-----------------------Start of the Report----------------------->
+
+2024-05-04 01:10:50,967: WeatherAPIHandler - INFO - City:          Gampaha
+2024-05-04 01:10:50,967: WeatherAPIHandler - INFO - Temperature:   ['301.11 K', '27.96 °c', '82.33 °F']
+2024-05-04 01:10:50,967: WeatherAPIHandler - INFO - Humidity:      94 %
+2024-05-04 01:10:50,967: WeatherAPIHandler - INFO - Wind Speed:    1.54 m/s, 5.54 km/h
+2024-05-04 01:10:50,967: WeatherAPIHandler - INFO - Description:   scattered clouds
+2024-05-04 01:10:50,967: WeatherAPIHandler - INFO - Sunrise:       2024-05-04 05:55:04
+2024-05-04 01:10:50,967: WeatherAPIHandler - INFO - Sunset:        2024-05-04 18:18:25
+
+2024-05-04 01:10:50,967: WeatherAPIHandler - INFO - <------------------------End of the Report------------------------>
+
+
+
